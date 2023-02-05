@@ -1,0 +1,111 @@
+@media screen and (max-width:992px) {
+    .spread{
+        width: 97%;
+    }
+    .nav{
+        width: 45%;
+    }
+    .section1, .section2{
+        width: 80%;
+    }
+    .input{
+        width: 100%;
+    }
+    .tick{
+        width: 100%;
+    }
+}
+@media screen and (max-width:904px) {
+    .nav{
+        width: 50%;
+    }
+}
+@media screen and (max-width:814px) {
+    .nav{
+        width: 55%;
+    }
+}
+@media screen and (max-width:767px) {
+    .fa-bars{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .section1, .section2{
+        width: 100%;
+    }
+    body{
+        background-image: none;
+    }
+    #section1-form{
+        width: 100%;
+    }
+    .input, .tick{
+        width: 100%;
+    }
+    #username, #password{
+        width: 55%;
+    }
+    .investment, .deposit{
+        width: 95%;
+    }
+    .footer{
+        padding-left: 10px;
+    }
+    .footer ul{
+        max-width: 1080px;
+        transform: translateX(0);
+
+    }
+    .footer ul li a{
+        font-size: 0.9rem;
+        padding: 0 15px 0 0;
+
+    }
+    #forget-pass{
+        background: transparent;
+        padding: 0;
+        margin-top: -20px;
+    }
+    .footer p{
+        transform: translateX(0);
+    }
+    .tick input[type="checkbox"]{
+        margin-left: 22%;
+    }
+    
+}
+@media screen and (max-width:732px) {
+    .input, .tick{
+        width: 100%;
+    }
+    .tick input[type="checkbox"]{
+        margin-left: 22%;
+    }
+}
+@media screen and (max-width:569px) {
+    .input, .tick{
+        width: 100%;
+    }
+    #username, #password{
+        width: 100%;
+    }
+    #section1-form{
+        width: 95%;
+    }
+
+    .spread img{
+        width: 30%;
+    }
+}
+@media screen and (max-width:480px) {
+
+
+    .spread img{
+        width: 40%;
+    }
+}
+
+
+
